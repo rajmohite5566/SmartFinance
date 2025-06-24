@@ -1,5 +1,7 @@
+
 from tkinter import *
 import customtkinter as ctk
+from PIL import Image
 
 ctk.set_appearance_mode("dark")  # Can be "System", "Light", or "Dark"
 
@@ -67,4 +69,11 @@ login_button = ctk.CTkButton(master=main_frame,
                              command = about)
 login_button.place(x = 1000,y = 18)
 
+line = ctk.CTkFrame(master=main_frame, 
+                           width=1080, 
+                           height=2, 
+                           bg_color = "#06923E")
+line.place(x = 0, y = 65)
+
 root.mainloop()
+
