@@ -36,8 +36,8 @@ label_subtitle.place(x=170, y=330)
 label_email_info = ctk.CTkLabel(top,text ="📧 Email: vikrant@gmail.com",font=('Bold',20),text_color="#444444")
 label_email_info.place(x=170, y=380)
 
-#phone 
-label_phone_info = ctk.CTkLabel(top,text ="📞 Phone: rollno 35",font=('Bold',20),text_color="#444444")
+#phone ,
+label_phone_info = ctk.CTkLabel(top,text ="📞 Phone: 2424244444",font=('Bold',20),text_color="#444444")
 label_phone_info.place(x=170, y=430)
 
 label_name = ctk.CTkLabel(top, text = "Full Name",font=("Helvetica",14))
